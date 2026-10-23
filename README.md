@@ -1,40 +1,56 @@
 # AI-Powered Daily Motivational Email Automation
 
-An n8n workflow that uses an AI model to generate a motivational quote and automatically emails it to a recipient list every day at **7:00 AM Africa/Lagos time**.
+An n8n workflow that uses an AI model, Google Sheets, and Gmail to generate and send daily motivational emails automatically at **7:00 AM Africa/Lagos time**.
 
-## Workflow
+## Demo
+
+- **[Watch the Loom walkthrough](https://www.loom.com/share/3698b08fe74a4a9e8da4990402397cb4)**
+
+## How It Works
 
 `Schedule Trigger → Message a Model → Google Sheets → Gmail`
 
-1. **Schedule Trigger** starts the workflow on its daily schedule.
-2. **Message a Model** generates a motivational quote.
-3. **Google Sheets** supplies the recipient information.
-4. **Gmail** sends the email.
+1. **Schedule Trigger** starts the workflow each morning.
+2. **Message a Model** generates the motivational content.
+3. **Google Sheets** provides the recipient data.
+4. **Gmail** sends the email automatically.
 
-## Tools
+## Tools Used
 
-- n8n
-- AI model integration
-- Google Sheets
-- Gmail
-- Scheduled workflow automation
+- n8n — workflow automation
+- AI model integration — content generation
+- Google Sheets — recipient data source
+- Gmail — email delivery
 
-## Business Use Case
+## What This Project Demonstrates
 
-This project demonstrates how recurring communication can run with less manual effort. The same pattern can be adapted for reminders, internal updates, customer follow-ups, and other routine business messages.
+- Scheduling an automated workflow
+- Generating content with an AI model
+- Connecting multiple services in one workflow
+- Using spreadsheet data in an automated process
+- Sending emails automatically through Gmail
 
-## Project Evidence
+## Business Applications
 
-- [ ] Sanitized n8n workflow JSON
-- [ ] Workflow screenshot
+The same workflow pattern can be adapted for recurring reminders, internal updates, customer follow-ups, lead nurturing, and other routine business communications.
+
+## Validation
+
+The workflow was tested, and successful email delivery was confirmed.
+
+## Project Assets
+
+- [x] Loom walkthrough video
+- [ ] Workflow screenshots
 - [ ] Successful email delivery screenshot
-- [x] [Loom walkthrough video](https://www.loom.com/share/3698b08fe74a4a9e8da4990402397cb4)
+- [ ] Sanitized n8n workflow export
 
-Screenshots and a sanitized workflow export will be added when ready.
+The screenshots and workflow export should be linked here once their public repository paths are available.
 
 ## Security
 
-This repository does not include credentials, API keys, private recipient email addresses.
+Do not publish API keys, credentials, private recipient email addresses, or a link to the live recipient spreadsheet. Before sharing an n8n workflow export, remove credentials and other sensitive configuration.
+
 ## Status
 
-Tested successfully with email delivery confirmed. This is a learning and portfolio project.
+Completed and tested as a learning and portfolio project.
