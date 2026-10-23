@@ -28,9 +28,9 @@ This project demonstrates how recurring communication can run with less manual e
 - [ ] Sanitized n8n workflow JSON
 - [ ] Workflow screenshot
 - [ ] Successful email delivery screenshot
-- [ ] Loom walkthrough
+- [x] [Loom walkthrough video](https://www.loom.com/share/3698b08fe74a4a9e8da4990402397cb4)
 
-These assets will be added when ready.
+Screenshots and a sanitized workflow export will be added when ready.
 
 ## Security
 
