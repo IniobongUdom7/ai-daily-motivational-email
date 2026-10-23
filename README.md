@@ -1,19 +1,33 @@
 # AI-Powered Daily Motivational Email Automation
 
-An n8n workflow that uses an AI model, Google Sheets, and Gmail to generate and send daily motivational emails automatically at **7:00 AM Africa/Lagos time**.
+An n8n workflow that uses an AI model, Google Sheets, and Gmail to generate and send daily motivational emails automatically at **7:00 AM**.
 
 ## Demo
 
-- **[Watch the Loom walkthrough](https://www.loom.com/share/3698b08fe74a4a9e8da4990402397cb4)**
+**[Watch the Loom walkthrough](https://www.loom.com/share/3698b08fe74a4a9e8da4990402397cb4)**
 
-## How It Works
+## Workflow
 
 `Schedule Trigger → Message a Model → Google Sheets → Gmail`
 
 1. **Schedule Trigger** starts the workflow each morning.
-2. **Message a Model** generates the motivational content.
-3. **Google Sheets** provides the recipient data.
+2. **Message a Model** generates original motivational content.
+3. **Google Sheets** provides recipient data.
 4. **Gmail** sends the email automatically.
+
+## Workflow Screenshots
+
+### n8n workflow
+![n8n workflow screenshot](Screenshot%202026-10-22%20124633.png)
+
+### Successful email delivery
+![Email delivery screenshot](mail.png)
+
+## Download the Workflow
+
+[View or download the sanitized n8n workflow JSON](Daily%20AI%20motivational%20email%20automation.json).
+
+To use it, import the JSON into n8n and configure your own AI, Google Sheets, and Gmail credentials. Replace the placeholder spreadsheet ID with your own sheet ID.
 
 ## Tools Used
 
@@ -24,32 +38,23 @@ An n8n workflow that uses an AI model, Google Sheets, and Gmail to generate and 
 
 ## What This Project Demonstrates
 
-- Scheduling an automated workflow
-- Generating content with an AI model
+- Scheduled workflow automation
+- AI-generated content
 - Connecting multiple services in one workflow
 - Using spreadsheet data in an automated process
-- Sending emails automatically through Gmail
+- Automated email delivery
 
 ## Business Applications
 
-The same workflow pattern can be adapted for recurring reminders, internal updates, customer follow-ups, lead nurturing, and other routine business communications.
+This pattern can be adapted for recurring reminders, internal updates, customer follow-ups, lead nurturing, and other routine business communications.
 
 ## Validation
 
 The workflow was tested, and successful email delivery was confirmed.
 
-## Project Assets
+## Security Notes
 
-- [x] Loom walkthrough video
-- [ ] Workflow screenshots
-- [ ] Successful email delivery screenshot
-- [ ] Sanitized n8n workflow export
-
-The screenshots and workflow export should be linked here once their public repository paths are available.
-
-## Security
-
-Do not publish API keys, credentials, private recipient email addresses, or a link to the live recipient spreadsheet. Before sharing an n8n workflow export, remove credentials and other sensitive configuration.
+The public workflow export has been sanitized to remove the live spreadsheet ID, account identifiers, and execution-specific identifiers. It does not include credentials or recipient email addresses. Configure your own credentials and spreadsheet before running it.
 
 ## Status
 
