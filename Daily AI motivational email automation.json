@@ -59,17 +59,17 @@
       "parameters": {
         "documentId": {
           "__rl": true,
-          "value": "1t_bOTZ2jF2ZkNOVL7CZQzmUaO4zEd_H5FISCUvlViXE",
+          "value": "REPLACE_WITH_YOUR_GOOGLE_SHEET_ID",
           "mode": "list",
-          "cachedResultName": "daily motivation recpients",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1t_bOTZ2jF2ZkNOVL7CZQzmUaO4zEd_H5FISCUvlViXE/edit?usp=drivesdk"
+          "cachedResultName": "Your Google Sheet",
+          "cachedResultUrl": ""
         },
         "sheetName": {
           "__rl": true,
           "value": "gid=0",
           "mode": "list",
           "cachedResultName": "Sheet1",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1t_bOTZ2jF2ZkNOVL7CZQzmUaO4zEd_H5FISCUvlViXE/edit#gid=0"
+          "cachedResultUrl": ""
         },
         "options": {}
       },
@@ -83,8 +83,8 @@
       "name": "Get row(s) in sheet1",
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "qGMV0FUi6VBg9k4v",
-          "name": "Google Sheets account 2"
+          "id": null,
+          "name": ""
         }
       }
     },
@@ -104,11 +104,11 @@
       ],
       "id": "29809f79-7319-4140-a86f-608e7ab57ff6",
       "name": "Send a message",
-      "webhookId": "dea19e60-d77b-4491-b2ac-0849e1d03e1c",
+      
       "credentials": {
         "gmailOAuth2": {
-          "id": "shKOO48jrgwSUOXv",
-          "name": "Gmail account"
+          "id": null,
+          "name": ""
         }
       }
     }
@@ -160,9 +160,9 @@
   "versionId": "8323cf6b-1b7a-4f83-a799-bfc1ccf47138",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "a9103bdc26954e2cf44995cb9e3453ac823aa0df3e14fcd180539ee1ab6ae2a9"
+    "instanceId": ""
   },
   "nodeGroups": [],
-  "id": "IL3jMSrzDxosHPN5",
+  "id": "",
   "tags": []
 }
