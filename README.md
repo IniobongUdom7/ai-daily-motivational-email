@@ -34,8 +34,7 @@ Screenshots and a sanitized workflow export will be added when ready.
 
 ## Security
 
-This repository does not include credentials, API keys, private recipient email addresses, or a link to the working recipient spreadsheet. Do not publish those details in portfolio materials.
-
+This repository does not include credentials, API keys, private recipient email addresses.
 ## Status
 
 Tested successfully with email delivery confirmed. This is a learning and portfolio project.
